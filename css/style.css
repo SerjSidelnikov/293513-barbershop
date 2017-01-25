@@ -1,0 +1,24 @@
+body {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #000000 url("../img/body-bg.jpg") no-repeat center top;
+}
+
+.inner-page {
+  color: #000000;
+  background: #f8f3f0 url("../img/pattern-white.jpg") repeat;
+}
+
+.main-header {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.main-footer {
+  color: #ffffff;
+  background: #252525 url("../img/footer-bg.jpg");
+}

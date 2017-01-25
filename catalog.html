@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <title>Средства для ухода</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <div class="container">
         <nav class="main-navigation">
@@ -40,8 +41,8 @@
 
       <aside class="content-left">
         <form action="https://echo.htmlacademy.ru" method="post">
-          <div class="checkbox">
-            <div class="checkbox-title">Производители:</div>
+          <fieldset class="checkbox">
+            <legend>Производители:</legend>
             <label>
               <input type="checkbox" name="baxter" value="baxter" checked> Baxter of California
             </label>
@@ -60,10 +61,10 @@
             <label>
               <input type="checkbox" name="crew" value="crew" checked> American crew
             </label>
-          </div>
+          </fieldset>
 
-          <div class="radio">
-            <div class="radio-title">Группы товаров:</div>
+          <fieldset class="radio">
+            <legend>Группы товаров:</legend>
             <label>
               <input type="radio" name="radio-group" value="shaver"> Бритвенные принадлежности
             </label>
@@ -73,7 +74,7 @@
             <label>
               <input type="radio" name="radio-group" value="accessories"> Акссессуары
             </label>
-          </div>
+          </fieldset>
 
           <button class="btn" type="submit">Показать</button>
         </form>
