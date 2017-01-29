@@ -144,8 +144,8 @@ body {
 }
 
 .breadcrumbs li {
-  display: inline;
-  padding-right: 40px;
+  display: inline-block;
+  margin-right: 40px;
 }
 
 .content-left {
@@ -211,7 +211,6 @@ fieldset {
 
 .photo-gallery-image {
   width: 460px;
-  height: 500px;
   margin: 0;
   margin-bottom: 20px;
 }
